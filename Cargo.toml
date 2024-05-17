@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/token_test_backend"
+]
+resolver = "2"
