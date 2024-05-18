@@ -1,6 +1,8 @@
 #!/bin/bash
 
 dfx identity use minter-ian
+export MINTER=$(dfx identity get-principal)
+
 export MINTER_ACCOUNT_ID=$(dfx ledger account-id)
 
 export TOKEN_NAME="LionQueen"
